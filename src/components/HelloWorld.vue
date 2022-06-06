@@ -9,7 +9,7 @@
     wendu: ''
   })
 
-  fetch('/data.js').then(r => r.json()).then(r => {
+  fetch(location.pathname.slice(0, location.pathname.lastIndexOf('/')) + '/data.js').then(r => r.json()).then(r => {
     state.citylist = r.flat()
   })
 
