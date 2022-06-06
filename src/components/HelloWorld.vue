@@ -34,8 +34,7 @@
 
 
   // axios.get("http://wthrcdn.etouch.cn/weather_mini?city=" + c).then(function(message) {
-  //   that.city = c;
-  //   that.forecasts = message.data.data.forecast;
+  //   state.weatherList = message.data.data.forecast
   // })
 </script>
 
@@ -65,6 +64,8 @@
         {{item.fengli}}
       </li>
     </ul>
+    
+    <router-link to="/about">关于我们</router-link>
   </div>
 
 </template>
