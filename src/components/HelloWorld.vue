@@ -49,8 +49,8 @@
     </div>
 
     <div id="g2">
-      {{state.city}}
-      {{state.wendu}}
+      <h4>{{state.city}}</h4>
+      <h3>{{state.wendu}}度</h3>
       {{state.ganmao}}
     </div>
 
